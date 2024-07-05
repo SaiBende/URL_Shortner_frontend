@@ -24,7 +24,7 @@ function App() {
     };
 
     try {
-      const response = await fetch('http://localhost:8000/', requestOptions);
+      const response = await fetch('https://10s.vercel.app/', requestOptions);
 
       if (!response.ok) {
         throw new Error('Failed to shorten URL');
